@@ -7,7 +7,7 @@ function App(){
   // console.log("Hello",articles);
   const getArticles = async () => {
     try{
-      const res = await axios.get("http://localhost:4000/");
+      const res = await axios.get("https://rss-feed-ruby.vercel.app/");
       setArticles(res.data);
     }
     catch(err){
