@@ -44,4 +44,8 @@ h1{
   .root1{
     flex-direction: column;
   }
+  img{
+    width:10rem;
+    height: 70px;
+  }
 }
